@@ -2,6 +2,9 @@ public class Car {
 
     private String description;
 
+    public Car() {
+    }
+
     public Car(String description) {
         this.description = description;
     }
