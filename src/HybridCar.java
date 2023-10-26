@@ -17,7 +17,7 @@ public class HybridCar extends Car{
 
     @Override
     public void startEngine() {
-        System.out.printf("Push to Start pressed, center console gently illuminates and displays 'Hello Watson', battery at %d Percent, Engine gently vrooooms%n", batteryLevel);
+        System.out.printf("Push to Start pressed, center console gently illuminates and displays 'Hello Watson', battery at %d Percent, all %d firing, Engine gently vrooooms%n", batteryLevel, cylinders);
     }
 
     @Override

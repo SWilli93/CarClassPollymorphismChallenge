@@ -15,7 +15,7 @@ public class Car {
 
     public void drive() {
         runEngine();
-        System.out.println(getClass().getSimpleName() + " is now accelerating");
+        System.out.println(getClass().getSimpleName() + " is now accelerating\n");
     }
 
     protected void runEngine() {
